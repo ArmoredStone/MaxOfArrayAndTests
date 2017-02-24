@@ -1,0 +1,2 @@
+# MaxOfArrayAndTests
+6
