@@ -12,7 +12,7 @@ public class MainTest {
     @Test
     public void testMaxValueOfArray() {
         Main main = new Main();
-        ArrayList<Integer> array = new ArrayList<>();
+        ArrayList<Integer> array;
         array.add(7);
         array.add(8);
         assertEquals(8,main.maxValueOfArray(array));
@@ -21,7 +21,7 @@ public class MainTest {
         @Test
     public void testMaxValueOfArrayWithMinus() {
         Main main = new Main();
-        ArrayList<Integer> array = new ArrayList<>();
+        ArrayList<Integer> array;
         array.add(-7);
         array.add(8);
         assertEquals(8,main.maxValueOfArray(array));
@@ -29,7 +29,7 @@ public class MainTest {
         @Test
     public void testMaxValueOfArrayBothMinus() {
         Main main = new Main();
-        ArrayList<Integer> array = new ArrayList<>();
+        ArrayList<Integer> array;
         array.add(-7);
         array.add(-8);
         assertEquals(-7,main.maxValueOfArray(array));
